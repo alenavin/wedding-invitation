@@ -8,11 +8,12 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap"
       rel="stylesheet"
     />
 
@@ -20,7 +21,7 @@
   </head>
   <body>
     <section class="photo-main">
-      <img src="img/1.JPG" alt="main-img" />
+      <img src="img/1.png" alt="main-img" />
     </section>
     <main class="main">
       <h2 class="h2">Дорогие гости!</h2>
@@ -31,14 +32,39 @@
         приглашаем Вас на знаменательный праздник - нашу свадьбу!
       </p>
     </main>
-    <section class="counter"></section>
+
+    <section class="counter">
+      <div class="countdown-wrapper">
+        <h3>До Торжества Осталось:</h3>
+        <div class="countdown" id="countdown">
+          <div class="time">
+            <p id="days">00</p>
+            <small>дней</small>
+          </div>
+          <div class="time">
+            <p id="hours">00</p>
+            <small>часов</small>
+          </div>
+          <div class="time">
+            <p id="min">00</p>
+            <small>минут</small>
+          </div>
+          <div class="time">
+            <p id="sec">00</p>
+            <small>секунд</small>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section class="location">
       <img src="img/2.jpg" alt="house" class="location-img" />
       <div class="location-text">
-        <h2 class="h2">Локация</h2>
-        <h3>14.07.2025</h3>
-        <h3>15:00</h3>
-        <p>Московская область, Зеленоград</p>
+        <h2 class="h2">Локация и Время</h2>
+        <p>Мы будем ждать вас в Доме у Озера</p>
+        <p>Адрес: Московская область, село Алабушево, ул, Горького, 36</p>
+        <h3>14 июля 2025</h3>
+        <h3>в 15:00</h3>
       </div>
     </section>
     <section class="dress">
@@ -53,7 +79,7 @@
         <div class="dress-cercles-col" id="d"></div>
         <div class="dress-cercles-col" id="e"></div>
       </div>
-      <p>или нежным ярким - выбирайте на какой Вы стороне</p>
+      <p>или нежным ярким - выбирайте на какой Вы стороне!</p>
       <div class="dress-cercles">
         <div class="dress-cercles-col" id="f"></div>
         <div class="dress-cercles-col" id="g"></div>
@@ -65,5 +91,6 @@
     <section class="dress-ref">
       <p>Референсы нарядов</p>
     </section>
+    <script src="main.js" ;></script>
   </body>
 </html>
