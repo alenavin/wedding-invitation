@@ -32,6 +32,7 @@ p {
 
 h3 {
   font-family: $p-font;
+  font-weight: 600;
   padding: $p-padding-left;
   font-size: 1.35rem;
   color: $color-secondary;
@@ -39,18 +40,31 @@ h3 {
   text-align: center;
 }
 
+.counter {
+  background-color: $color-secondary;
+}
+
 .countdown-wrapper {
   //height: 10rem;
   margin: $section-margin;
 }
+
+.countdown-wrapper h3 {
+  background-color: $color-secondary;
+  color: $color-primary;
+  font-weight: 400;
+}
+
 .countdown {
   display: flex;
   justify-self: center;
   margin: 0.7rem 0;
 }
 
-.time {
+.time,
+.time p {
   text-align: center;
+  font-size: 1.5rem;
 }
 
 .location {

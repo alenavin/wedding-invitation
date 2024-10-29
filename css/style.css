@@ -23,22 +23,33 @@ p {
 
 h3 {
   font-family: "Montserrat";
+  font-weight: 600;
   padding: 0 2rem;
   font-size: 1.35rem;
   color: rgba(17, 40, 13, 0.729);
   text-transform: uppercase;
   text-align: center; }
 
+.counter {
+  background-color: rgba(17, 40, 13, 0.729); }
+
 .countdown-wrapper {
   margin: 2rem 0; }
+
+.countdown-wrapper h3 {
+  background-color: rgba(17, 40, 13, 0.729);
+  color: #f4ede6;
+  font-weight: 400; }
 
 .countdown {
   display: flex;
   justify-self: center;
   margin: 0.7rem 0; }
 
-.time {
-  text-align: center; }
+.time,
+.time p {
+  text-align: center;
+  font-size: 1.5rem; }
 
 .location {
   margin: 2rem 0; }
