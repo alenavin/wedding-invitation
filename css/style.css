@@ -147,7 +147,8 @@ html {
 
 .contacts .heading {
   text-align: center;
-  margin-bottom: 2rem; }
+  margin-bottom: 2rem;
+  font-size: 1.8rem; }
 
 .contacts .row {
   display: flex;
@@ -216,7 +217,8 @@ input[type="number"]::-webkit-inner-spin-button {
   font-weight: 800;
   font-size: 1rem;
   cursor: pointer;
-  transition: 0.3s; }
+  transition: 0.3s;
+  color: rgba(0, 0, 0, 0.85); }
 
 .btn:hover {
   background-color: rgba(17, 40, 13, 0.729);
