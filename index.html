@@ -98,7 +98,7 @@
       </figure>
 
       <figure class="gallery__item gallery__item--3">
-        <img src="img/dress3.jpeg" alt="image 3" class="gallery__img" />
+        <img src="img/aaaaaa.jpeg" alt="image 3" class="gallery__img" />
       </figure>
 
       <figure class="gallery__item gallery__item--4">
@@ -109,6 +109,79 @@
         <img src="img/dress44.jpeg" alt="image 5" class="gallery__img" />
       </figure>
     </section>
+
+    <section class="contacts">
+      <h2 class="heading">Пожалуйста, подтвердите свое присутсвие</h2>
+      <div class="row">
+        <div class="img">
+          <img src="img/pampas-2.jpeg" alt="form-picture" class="form-img" />
+        </div>
+        <form action="https://api.web3forms.com/submit" method="POST">
+          <input
+            type="hidden"
+            name="access_key"
+            value="8ec33ab5-d264-41a5-96ec-1e369c76ae76"
+          />
+          <span>Имя Фамилия</span>
+          <input
+            type="text"
+            name="name"
+            class="box"
+            required
+            autocomplete="off"
+            placeholder="Ваше имя"
+          />
+
+          <span>Телефон</span>
+          <input
+            type="number"
+            name="phone"
+            class="box"
+            required
+            autocomplete="off"
+            placeholder="Ваш телефон"
+          />
+
+          <span>Предпочтение по напиткам</span>
+          <select name="drinks" id="" class="box">
+            <option value="" disabled selected>Выбрать</option>
+            <option value="Слабоалкогольные напитки">
+              Слабоалкогольные напитки
+            </option>
+            <option value="Крепкий алкоголь">Крепкий алкоголь</option>
+            <option value="Безалкогольные напитки">
+              Безалкогольные напитки
+            </option>
+            <option value="Всего по чуть-чуть">Всего по чуть-чуть</option>
+            <option value="Мне не важно">Мне не важно</option>
+          </select>
+
+          <span>Трансфер от метро Ховрино</span>
+          <div class="transfer">
+            <div>
+              <input type="radio" name="transfer" id="yes" value="нужен" />
+              <label for="yes">нужен</label>
+            </div>
+            <div>
+              <input type="radio" name="transfer" id="no" value="не нужен" />
+              <label for="no">не нужен</label>
+            </div>
+
+            <div>
+              <input
+                type="radio"
+                name="transfer"
+                id="dontknow"
+                value="сообщу позже"
+              />
+              <label for="dontknow">сообщу позже</label>
+            </div>
+          </div>
+          <input type="submit" name="send" id="" class="btn" />
+        </form>
+      </div>
+    </section>
+
     <script src="main.js" ;></script>
   </body>
 </html>
