@@ -1,0 +1,15 @@
+@media (min-width: 1024px) {
+  body {
+    padding: 6rem;
+    //background-color: rgb(196, 255, 215);
+  }
+
+  .gallery {
+    display: flex;
+  }
+
+  .location {
+    display: flex;
+    flex-direction: row;
+  }
+}

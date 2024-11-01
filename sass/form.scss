@@ -27,10 +27,11 @@ html {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+    flex-direction: column;
     gap: 1.5rem;
 
     .img {
-      flex: 1 1 40rem;
+      //flex: 1 1 40rem; // закоментила потому что почему-то стало появляться расстояние под картинкой не нужное
     }
 
     form {
