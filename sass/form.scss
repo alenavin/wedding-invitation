@@ -51,27 +51,11 @@ html {
         font-weight: 400;
       }
 
-      .transfer {
+      .transfer,
+      .stay {
         margin: 1rem 0 2rem;
         display: flex;
         flex-direction: column;
-
-        input {
-          appearance: none;
-          width: 0.8rem;
-          height: 0.8rem;
-          background-color: rgba(0, 0, 0, 0.376);
-          border-radius: 15%;
-          cursor: pointer;
-          transition: 0.3s;
-        }
-
-        input:checked {
-          background-color: $color-secondary;
-          border-radius: 50%;
-          width: 1rem;
-          height: 1rem;
-        }
 
         label {
           margin-left: 0.2rem;
@@ -83,6 +67,30 @@ html {
       }
     }
   }
+}
+
+#yes,
+#no,
+#dontknow {
+  appearance: none;
+  width: 0.8rem;
+  height: 0.8rem;
+  background-color: rgba(0, 0, 0, 0.376);
+  border-radius: 15%;
+  cursor: pointer;
+  transition: 0.3s;
+
+  &:checked {
+    background-color: $color-secondary;
+    border-radius: 50%;
+    width: 1rem;
+    height: 1rem;
+  }
+}
+
+#stay-p {
+  padding: 1rem 0 0 0;
+  font-size: 1.1rem;
 }
 
 input[type="number"]::-webkit-outer-spin-button,

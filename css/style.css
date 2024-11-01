@@ -50,28 +50,39 @@ html {
         font-family: "Montserrat";
         font-size: 1.2rem;
         font-weight: 400; }
-      .contacts .row form .transfer {
+      .contacts .row form .transfer,
+      .contacts .row form .stay {
         margin: 1rem 0 2rem;
         display: flex;
         flex-direction: column; }
-        .contacts .row form .transfer input {
-          appearance: none;
-          width: 0.8rem;
-          height: 0.8rem;
-          background-color: rgba(0, 0, 0, 0.376);
-          border-radius: 15%;
-          cursor: pointer;
-          transition: 0.3s; }
-        .contacts .row form .transfer input:checked {
-          background-color: rgba(17, 40, 13, 0.729);
-          border-radius: 50%;
-          width: 1rem;
-          height: 1rem; }
-        .contacts .row form .transfer label {
+        .contacts .row form .transfer label,
+        .contacts .row form .stay label {
           margin-left: 0.2rem;
           font-family: "Montserrat";
           font-size: 1.2rem;
           cursor: pointer; }
+
+#yes,
+#no,
+#dontknow {
+  appearance: none;
+  width: 0.8rem;
+  height: 0.8rem;
+  background-color: rgba(0, 0, 0, 0.376);
+  border-radius: 15%;
+  cursor: pointer;
+  transition: 0.3s; }
+  #yes:checked,
+  #no:checked,
+  #dontknow:checked {
+    background-color: rgba(17, 40, 13, 0.729);
+    border-radius: 50%;
+    width: 1rem;
+    height: 1rem; }
+
+#stay-p {
+  padding: 1rem 0 0 0;
+  font-size: 1.1rem; }
 
 input[type="number"]::-webkit-outer-spin-button,
 input[type="number"]::-webkit-inner-spin-button {
