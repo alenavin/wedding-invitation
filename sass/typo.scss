@@ -1,0 +1,28 @@
+h2 {
+  font-family: $cursive;
+  font-weight: $h-font-weight;
+}
+
+.h2 {
+  text-align: center;
+  margin: $section-margin;
+  font-size: 3rem;
+}
+
+p {
+  font-family: $p-font;
+  padding: $p-padding-left;
+  font-size: 1.25rem;
+  //line-height: 1.75rem;
+  //letter-spacing: 0.1rem;
+}
+
+h3 {
+  font-family: $p-font;
+  font-weight: 600;
+  padding: $p-padding-left;
+  font-size: 1.35rem;
+  color: $color-secondary;
+  text-transform: uppercase;
+  text-align: center;
+}

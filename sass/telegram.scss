@@ -1,0 +1,20 @@
+// telegram
+
+.telegram > * {
+  background-color: $color-secondary;
+}
+
+.telegram-p {
+  color: $color-primary;
+  padding: 2rem;
+  line-height: 2rem;
+}
+.telegram-p a {
+  background-color: $color-secondary;
+  outline: none;
+  text-decoration: none;
+  color: $color-primary;
+  font-style: italic;
+  padding: 0.5rem;
+  //margin: 1rem;
+}

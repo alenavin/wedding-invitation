@@ -1,0 +1,113 @@
+//form
+html {
+  overflow-x: hidden;
+}
+
+.form-img {
+  max-width: 100%;
+}
+
+.contacts {
+  width: 100%;
+  min-height: 100vh;
+  //display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 9%;
+}
+
+.contacts .heading {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 1.8rem;
+}
+
+.contacts .row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.contacts .row .img {
+  flex: 1 1 40rem;
+}
+
+.contacts .row form {
+  flex: 1 1 40rem;
+}
+
+.contacts .row form .box {
+  width: 100%;
+  margin: 1rem 0 2rem;
+  border-radius: 0.5rem;
+  padding: 0.8rem;
+  background-color: rgba(255, 255, 255, 0.927);
+}
+
+.contacts .row form span {
+  color: $color-secondary;
+  font-family: $p-font;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.contacts .row form .transfer {
+  margin: 1rem 0 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.contacts .row form .transfer label {
+  margin-left: 0.2rem;
+  font-family: $p-font;
+  font-size: 1.2rem;
+  //color: $color-secondary;
+  cursor: pointer;
+}
+
+.contacts .row form .transfer #yes {
+  //margin-left: 2rem;
+}
+
+.contacts .row form .transfer input {
+  appearance: none;
+  width: 0.8rem;
+  height: 0.8rem;
+  background-color: rgba(0, 0, 0, 0.376);
+  border-radius: 15%;
+  cursor: pointer;
+  transition: 0.3s;
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  display: none;
+}
+
+.contacts .row form .transfer input:checked {
+  background-color: $color-secondary;
+  border-radius: 50%;
+  width: 1rem;
+  height: 1rem;
+}
+
+.contacts .row form .transfer #yes:checked ~ label[for="yes"],
+.contacts .row form .transfer #no:checked ~ label[for="no"],
+.contacts .row form .transfer #dontknow:checked ~ label[for="dontknow"] {
+  color: $color-secondary;
+}
+
+.btn {
+  padding: 0.8rem 2.6rem;
+  border-radius: 1.5rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
+  font-weight: 800;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.btn:hover {
+  background-color: $color-secondary;
+  color: $color-primary;
+}
