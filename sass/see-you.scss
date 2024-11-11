@@ -1,0 +1,22 @@
+.see-you {
+  background-color: black;
+  height: 25rem;
+
+  &-img {
+    opacity: 0.7;
+    height: 25rem;
+    background-image: url(../img/pampas-3.jpeg);
+    filter: blur(0.18rem);
+  }
+  &-text {
+    text-align: center;
+    color: $color-primary;
+    transform: translateY(-15rem);
+    //position: absolute;
+    //top: 2rem;
+  }
+  &-text > * {
+    margin: 0 0 1rem 0;
+    padding: 0;
+  }
+}
