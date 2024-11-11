@@ -1,5 +1,5 @@
 .telegram > * {
-  background-color: rgba(17, 40, 13, 0.729); }
+  background-color: #11280dba; }
 
 .telegram-p {
   color: #f4ede6;
@@ -7,7 +7,7 @@
   line-height: 2rem; }
 
 .telegram-p a {
-  background-color: rgba(17, 40, 13, 0.729);
+  background-color: #11280dba;
   outline: none;
   text-decoration: none;
   color: #f4ede6;
@@ -47,7 +47,7 @@ html {
       padding: 0.8rem;
       background-color: rgba(255, 255, 255, 0.927); }
     .row form span {
-      color: rgba(17, 40, 13, 0.729);
+      color: #11280dba;
       font-family: "Montserrat";
       font-size: 1.2rem;
       font-weight: 400; }
@@ -79,7 +79,7 @@ html {
   #yes:checked,
   #no:checked,
   #dontknow:checked {
-    background-color: rgba(17, 40, 13, 0.729);
+    background-color: #11280dba;
     border-radius: 50%;
     width: 1rem;
     height: 1rem; }
@@ -95,7 +95,7 @@ input[type="number"]::-webkit-inner-spin-button {
 .contacts .row form .transfer #yes:checked ~ label[for="yes"],
 .contacts .row form .transfer #no:checked ~ label[for="no"],
 .contacts .row form .transfer #dontknow:checked ~ label[for="dontknow"] {
-  color: rgba(17, 40, 13, 0.729); }
+  color: #11280dba; }
 
 .btn {
   padding: 0.8rem 2.6rem;
@@ -107,7 +107,7 @@ input[type="number"]::-webkit-inner-spin-button {
   transition: 0.3s;
   color: rgba(0, 0, 0, 0.85); }
   .btn:hover {
-    background-color: rgba(17, 40, 13, 0.729);
+    background-color: #11280dba;
     color: #f4ede6; }
 
 .dress {
@@ -197,13 +197,13 @@ input[type="number"]::-webkit-inner-spin-button {
     padding: 0 0.5rem; }
 
 .counter {
-  background-color: rgba(17, 40, 13, 0.729); }
+  background-color: #11280dba; }
 
 .countdown-wrapper {
   margin: 2rem 0;
   background-color: #f4ede6; }
   .countdown-wrapper h3 {
-    background-color: rgba(17, 40, 13, 0.729);
+    background-color: #11280dba;
     color: #f4ede6;
     font-weight: 400; }
 
@@ -254,7 +254,7 @@ h3 {
   font-weight: 600;
   padding: 0 2rem;
   font-size: 1.35rem;
-  color: rgba(17, 40, 13, 0.729);
+  color: #11280dba;
   text-transform: uppercase;
   text-align: center; }
 
@@ -282,17 +282,19 @@ h3 {
   background-color: black;
   height: 25rem; }
   .see-you-img {
-    opacity: 0.7;
+    opacity: 0.8;
     height: 25rem;
     background-image: url(../img/pampas-3.jpeg);
     filter: blur(0.18rem); }
   .see-you-text {
     text-align: center;
     color: #f4ede6;
-    transform: translateY(-15rem); }
+    transform: translateY(-18rem); }
   .see-you-text > * {
-    margin: 0 0 1rem 0;
+    margin: 0 0 1.5rem 0;
     padding: 0; }
+  .see-you-text img {
+    width: 5.5rem; }
 
 * {
   padding: 0;
