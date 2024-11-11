@@ -30,36 +30,40 @@ html {
     text-align: center;
     margin-bottom: 2rem;
     font-size: 1.8rem; }
-  .contacts .row {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    flex-direction: column;
-    gap: 1.5rem; }
-    .contacts .row form {
-      flex: 1 1 40rem; }
-      .contacts .row form .box {
-        width: 100%;
-        margin: 1rem 0 2rem;
-        border-radius: 0.5rem;
-        padding: 0.8rem;
-        background-color: rgba(255, 255, 255, 0.927); }
-      .contacts .row form span {
-        color: rgba(17, 40, 13, 0.729);
+
+.row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 1.5rem; }
+  .row form {
+    flex: 1 1 40rem; }
+    .row form .box {
+      width: 100%;
+      margin: 1rem 0 2rem;
+      border-radius: 0.5rem;
+      padding: 0.8rem;
+      background-color: rgba(255, 255, 255, 0.927); }
+    .row form span {
+      color: rgba(17, 40, 13, 0.729);
+      font-family: "Montserrat";
+      font-size: 1.2rem;
+      font-weight: 400; }
+    .row form .transfer,
+    .row form .stay {
+      margin: 1rem 0 2rem;
+      display: flex;
+      flex-direction: column; }
+      .row form .transfer label,
+      .row form .stay label {
+        margin-left: 0.2rem;
         font-family: "Montserrat";
         font-size: 1.2rem;
-        font-weight: 400; }
-      .contacts .row form .transfer,
-      .contacts .row form .stay {
-        margin: 1rem 0 2rem;
-        display: flex;
-        flex-direction: column; }
-        .contacts .row form .transfer label,
-        .contacts .row form .stay label {
-          margin-left: 0.2rem;
-          font-family: "Montserrat";
-          font-size: 1.2rem;
-          cursor: pointer; }
+        cursor: pointer; }
+
+.hidden {
+  display: none; }
 
 #yes,
 #no,
@@ -254,7 +258,18 @@ h3 {
     display: flex; }
   .location {
     display: flex;
-    flex-direction: row; } }
+    flex-direction: row;
+    align-items: center; }
+    .location-img {
+      width: 60%; }
+  .row {
+    flex-wrap: nowrap;
+    flex-direction: row; }
+    .row-img {
+      width: 100%; }
+  .hidden {
+    display: block;
+    margin-top: 1rem; } }
 
 * {
   background-color: #f4ede6;
