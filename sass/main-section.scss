@@ -26,12 +26,12 @@
   &-date {
     text-align: center;
     position: absolute;
-    top: 1rem;
-    left: -4.5rem;
+    top: -2rem;
+    left: -2.5rem;
   }
   &-date p {
-    font-size: 12rem;
-    font-weight: 200;
+    font-size: 14rem;
+    font-weight: 100;
     line-height: 13rem;
   }
 
@@ -40,10 +40,11 @@
     position: absolute;
     top: 31rem;
     right: 1.5rem;
-  }
-  &-names {
     font-size: 1.7rem;
     //font-weight: 200;
     line-height: 2rem;
+  }
+  &-names h2 {
+    //font-family: $num-font;
   }
 }

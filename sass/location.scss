@@ -10,5 +10,9 @@
 
   &-text {
     padding: 0 0.5rem;
+    &-date {
+      display: flex;
+      justify-content: center;
+    }
   }
 }
