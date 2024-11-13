@@ -4,6 +4,47 @@
     //background-color: $color-secondary;
     background-color: rgba(89, 61, 3, 0.791);
   }
+  ////////////////////////////   MAIN    /////////////////////////
+  .photo-main {
+    //background-color: $color-primary;
+    display: flex;
+    padding-bottom: 2.5rem;
+    & img {
+      width: 35%;
+      filter: blur(0rem);
+      margin: auto;
+    }
+  }
+  .main p,
+  .location-text p {
+    padding-bottom: 1rem;
+  }
+
+  .main-text {
+    &-date {
+      top: -1.8rem;
+      left: 29.8rem;
+    }
+    &-date p {
+      font-size: 16rem;
+      font-weight: 100;
+      line-height: 14rem;
+      letter-spacing: 1.1rem;
+    }
+
+    &-names {
+      top: 46rem;
+      right: 30rem;
+      font-size: 4rem;
+      //font-weight: 200;
+      line-height: 3rem;
+    }
+    &-names p {
+      font-size: 5rem;
+      padding: 2rem 0;
+    }
+  }
+  ///////////////////////////////////////////////////////////
 
   .gallery {
     display: flex;
