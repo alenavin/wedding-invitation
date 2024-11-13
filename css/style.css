@@ -194,7 +194,18 @@ input[type="number"]::-webkit-inner-spin-button {
     padding: 0 0.5rem; }
     .location-text-date {
       display: flex;
-      justify-content: center; }
+      justify-content: center;
+      padding-bottom: 0.8rem;
+      font-size: 1.6rem; }
+
+#july {
+  text-transform: lowercase;
+  padding: 0 1rem;
+  transform: translateY(-1px); }
+
+.num {
+  font-family: "Playfair Display", serif;
+  font-size: 1.4rem; }
 
 .counter {
   background-color: #11280dba; }
@@ -259,20 +270,20 @@ h2 {
   font-size: 3rem; }
 
 p {
-  font-family: "Montserrat";
+  font-family: "Playfair Display", serif;
   padding: 0 2rem;
   font-size: 1.25rem; }
 
 h3 {
-  font-family: "Montserrat";
-  font-weight: 600;
+  font-family: "Playfair Display", serif;
+  letter-spacing: 0.3rem;
   padding: 0 2rem;
   font-size: 1.35rem;
   color: #11280dba;
   text-transform: uppercase;
   text-align: center; }
 
-.num {
+small {
   font-family: "Playfair Display", serif; }
 
 @media (min-width: 1024px) {

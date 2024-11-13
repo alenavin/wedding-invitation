@@ -10,7 +10,9 @@ h2 {
 }
 
 p {
-  font-family: $p-font;
+  //font-family: $p-font; РАБОЧИЙ ВАРИАНТ
+  font-family: $num-font;
+
   padding: $p-padding-left;
   font-size: 1.25rem;
   //line-height: 1.75rem;
@@ -18,8 +20,10 @@ p {
 }
 
 h3 {
-  font-family: $p-font;
-  font-weight: 600;
+  //font-family: $p-font; // РАБОЧИЙ ВАРИАНТ
+  font-family: $num-font;
+  letter-spacing: 0.3rem;
+  //font-weight: 600; //РАБОЧИЙ ВАРИАНТ
   padding: $p-padding-left;
   font-size: 1.35rem;
   color: $color-secondary;
@@ -27,6 +31,6 @@ h3 {
   text-align: center;
 }
 
-.num {
+small {
   font-family: $num-font;
 }

@@ -13,6 +13,17 @@
     &-date {
       display: flex;
       justify-content: center;
+      padding-bottom: 0.8rem;
+      font-size: 1.6rem;
     }
   }
+}
+#july {
+  text-transform: lowercase;
+  padding: 0 1rem;
+  transform: translateY(-1px);
+}
+.num {
+  font-family: $num-font;
+  font-size: 1.4rem;
 }
