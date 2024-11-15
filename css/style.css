@@ -216,7 +216,9 @@ input[type="number"]::-webkit-inner-spin-button {
   .countdown-wrapper h3 {
     background-color: #11280dba;
     color: #f4ede6;
-    font-weight: 400; }
+    font-weight: 400;
+    height: 5rem;
+    align-content: center; }
 
 .countdown {
   display: flex;
