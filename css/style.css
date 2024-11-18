@@ -234,36 +234,42 @@ input[type="number"]::-webkit-inner-spin-button {
   background-color: #f4ede6; }
 
 .photo-main {
-  background-color: aqua; }
+  background-color: #0a0b0b;
+  position: relative; }
 
 .photo-main img {
   width: 100%;
   height: 100%;
-  position: relative;
   filter: blur(0.08rem); }
 
 .main p,
 .location-text p {
   padding-bottom: 1rem; }
 
-.main-text {
+.main-text-date, .main-text-names {
   color: #f4ede6; }
-  .main-text-date {
-    text-align: center;
-    position: absolute;
-    top: -2%;
-    left: -8%; }
-  .main-text-date p {
-    font-size: 15em;
-    font-weight: 100;
-    line-height: 13rem; }
-  .main-text-names {
-    text-align: center;
-    position: absolute;
-    top: 31rem;
-    right: 1.5rem;
-    font-size: 1.7rem;
-    line-height: 2rem; }
+
+.main-text-date {
+  text-align: center;
+  position: absolute;
+  top: -2%;
+  left: -6%; }
+
+.main-text-date p {
+  font-size: 50vw;
+  font-weight: 100;
+  line-height: 95%; }
+
+.main-text-names {
+  text-align: center;
+  position: absolute;
+  top: 74%;
+  right: 5.5%; }
+
+.main-text-names h2,
+.main-text-names p {
+  font-size: 9vw;
+  line-height: 95%; }
 
 h2 {
   font-family: "Snell Roundhand";
