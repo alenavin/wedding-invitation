@@ -1,5 +1,7 @@
 // telegram
-
+.telegram {
+  display: flex;
+}
 .telegram > * {
   background-color: $color-secondary;
 }
@@ -16,5 +18,13 @@
   color: $color-primary;
   font-style: italic;
   padding: 0.5rem;
+  position: relative;
   //margin: 1rem;
+}
+
+.tg {
+  width: 9vw;
+  position: absolute;
+
+  //top: 2px;
 }
