@@ -1,6 +1,6 @@
 // telegram
 .telegram {
-  display: flex;
+  //display: flex;
 }
 .telegram > * {
   background-color: $color-secondary;
@@ -11,6 +11,7 @@
   padding: 2rem;
   line-height: 2rem;
 }
+
 .telegram-p a {
   background-color: $color-secondary;
   outline: none;

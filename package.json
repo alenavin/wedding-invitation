@@ -23,6 +23,7 @@
     "sass": "^1.80.4"
   },
   "dependencies": {
-    "node-sass": "^9.0.0"
+    "node-sass": "^9.0.0",
+    "normalize.css": "^8.0.1"
   }
 }

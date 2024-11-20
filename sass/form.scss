@@ -127,3 +127,22 @@ input[type="number"]::-webkit-inner-spin-button {
 //.contacts .row form .transfer #yes {
 //margin-left: 2rem;
 //}
+select {
+  appearance: none; /* Убирает стилизация браузера (CSS3) */
+  -webkit-appearance: none; /* Для Safari/Chrome */
+  -moz-appearance: none; /* Для Firefox */
+  border: none; /* Убирает стандартную рамку */
+  background: none; /* Убирает фон */
+  padding: 0; /* Убирает внутренние отступы */
+  margin: 0; /* Убирает внешние отступы */
+  font: inherit; /* Наследует шрифт от родительского элемента */
+  color: inherit; /* Наследует цвет текста */
+  outline: none; /* Убирает подсветку при фокусе */
+  box-shadow: none; /* Убирает тени, если они есть */
+  cursor: pointer; /* Устанавливает указатель мыши как для кликабельных элементов */
+  background: url('data:image/svg+xml;charset=UTF-8,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4 5"%3E%3Cpath fill="black" d="M0 0L2 3L4 0H0Z"/%3E%3C/svg%3E')
+    no-repeat right 0.75em center;
+
+  background-size: 0.65em; /* Размер стрелки */
+  padding-right: 2em; /* Создаем отступ, чтобы текст не перекрывался стрелкой */
+}
