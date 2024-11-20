@@ -48,8 +48,8 @@ html {
 
     span {
       color: $color-secondary;
-      font-family: $p-font;
-      font-size: 1.2rem;
+      font-family: $num-font;
+      font-size: 1.6rem;
       font-weight: 400;
     }
 
@@ -61,8 +61,8 @@ html {
 
       label {
         margin-left: 0.2rem;
-        font-family: $p-font;
-        font-size: 1.2rem;
+        font-family: $num-font;
+        font-size: 1.35rem;
         //color: $color-secondary;
         cursor: pointer;
       }
@@ -113,10 +113,11 @@ input[type="number"]::-webkit-inner-spin-button {
   border-radius: 1.5rem;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
   font-weight: 800;
-  font-size: 1rem;
+  font-size: 1.125rem;
   cursor: pointer;
   transition: 0.3s;
   color: rgba(0, 0, 0, 0.85);
+  font-family: $num-font;
 
   &:hover {
     background-color: $color-secondary;
@@ -145,4 +146,19 @@ select {
 
   background-size: 0.65em; /* Размер стрелки */
   padding-right: 2em; /* Создаем отступ, чтобы текст не перекрывался стрелкой */
+  font-family: $num-font;
+}
+input {
+  all: unset; /* Сбрасывает все стили (новый подход, поддерживается в современных браузерах) */
+  box-sizing: border-box; /* Устанавливает управление размером через padding и border */
+  font: inherit; /* Наследует шрифт от родителя */
+  color: inherit; /* Наследует цвет текста */
+  background: none; /* Убирает стандартный фон */
+  border: none; /* Убирает рамки */
+  outline: none; /* Убирает подсветку при фокусе */
+  padding: 0; /* Убирает отступы */
+  margin: 0; /* Убирает внешние отступы */
+  appearance: none; /* Убирает специфическую стилизацию для input */
+  -webkit-appearance: none; /* Для Webkit-браузеров */
+  -moz-appearance: none; /* Для Firefox */
 }

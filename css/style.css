@@ -52,8 +52,8 @@ html {
     background-color: rgba(255, 255, 255, 0.927); }
   .row form span {
     color: #11280dba;
-    font-family: "Montserrat";
-    font-size: 1.2rem;
+    font-family: "Playfair Display", serif;
+    font-size: 1.6rem;
     font-weight: 400; }
   .row form .transfer,
   .row form .stay {
@@ -63,8 +63,8 @@ html {
     .row form .transfer label,
     .row form .stay label {
       margin-left: 0.2rem;
-      font-family: "Montserrat";
-      font-size: 1.2rem;
+      font-family: "Playfair Display", serif;
+      font-size: 1.35rem;
       cursor: pointer; }
 
 .hidden {
@@ -106,10 +106,11 @@ input[type="number"]::-webkit-inner-spin-button {
   border-radius: 1.5rem;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
   font-weight: 800;
-  font-size: 1rem;
+  font-size: 1.125rem;
   cursor: pointer;
   transition: 0.3s;
-  color: rgba(0, 0, 0, 0.85); }
+  color: rgba(0, 0, 0, 0.85);
+  font-family: "Playfair Display", serif; }
   .btn:hover {
     background-color: #11280dba;
     color: #f4ede6; }
@@ -143,7 +144,34 @@ select {
   background-size: 0.65em;
   /* Размер стрелки */
   padding-right: 2em;
-  /* Создаем отступ, чтобы текст не перекрывался стрелкой */ }
+  /* Создаем отступ, чтобы текст не перекрывался стрелкой */
+  font-family: "Playfair Display", serif; }
+
+input {
+  all: unset;
+  /* Сбрасывает все стили (новый подход, поддерживается в современных браузерах) */
+  box-sizing: border-box;
+  /* Устанавливает управление размером через padding и border */
+  font: inherit;
+  /* Наследует шрифт от родителя */
+  color: inherit;
+  /* Наследует цвет текста */
+  background: none;
+  /* Убирает стандартный фон */
+  border: none;
+  /* Убирает рамки */
+  outline: none;
+  /* Убирает подсветку при фокусе */
+  padding: 0;
+  /* Убирает отступы */
+  margin: 0;
+  /* Убирает внешние отступы */
+  appearance: none;
+  /* Убирает специфическую стилизацию для input */
+  -webkit-appearance: none;
+  /* Для Webkit-браузеров */
+  -moz-appearance: none;
+  /* Для Firefox */ }
 
 .dress {
   background-color: #f4ede6; }
@@ -238,11 +266,11 @@ select {
 #july {
   text-transform: lowercase;
   padding: 0 1rem;
-  transform: translateY(-1px); }
+  transform: translateY(2px); }
 
 .num {
   font-family: "Playfair Display", serif;
-  font-size: 1.4rem; }
+  font-size: 1.7rem; }
 
 .counter {
   background-color: #11280dba; }
