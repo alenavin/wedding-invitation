@@ -1,12 +1,12 @@
 .see-you {
   background-color: black;
-  height: 25rem;
+  height: 28rem;
 
   &-img {
     opacity: 0.8;
-    height: 25rem;
-    background-image: url(../img/pampas-2.jpeg);
-
+    height: 28rem;
+    background-image: url(../img/see-you/pampas-2.jpeg);
+    background-repeat: round;
     filter: blur(0.18rem);
   }
   &-text {

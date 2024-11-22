@@ -29,7 +29,6 @@ html {
 .contacts {
   background-color: #f4ede6;
   width: 100%;
-  min-height: 100vh;
   justify-content: center;
   align-items: center;
   padding: 2rem 9%; }
@@ -412,11 +411,12 @@ small {
 
 .see-you {
   background-color: black;
-  height: 25rem; }
+  height: 28rem; }
   .see-you-img {
     opacity: 0.8;
-    height: 25rem;
-    background-image: url(../img/pampas-2.jpeg);
+    height: 28rem;
+    background-image: url(../img/see-you/pampas-2.jpeg);
+    background-repeat: round;
     filter: blur(0.18rem); }
   .see-you-text {
     text-align: center;
