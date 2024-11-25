@@ -30,8 +30,12 @@ html {
   padding: 2rem 9%; }
   .contacts .heading {
     text-align: center;
-    margin-bottom: 2rem;
-    font-size: 2rem; }
+    margin-bottom: 1rem;
+    font-size: 2.5rem; }
+  .contacts-p {
+    text-align: center;
+    font-size: 1rem;
+    margin-bottom: 1rem; }
 
 .row {
   display: flex;
@@ -333,7 +337,7 @@ input {
   line-height: 95%; }
 
 h2 {
-  font-family: "Snell Roundhand";
+  font-family: "Snell Roundhand", "Great Vibes";
   font-weight: 200; }
 
 .h2 {
