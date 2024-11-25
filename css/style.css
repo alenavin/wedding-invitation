@@ -8,17 +8,13 @@
   line-height: 2rem; }
 
 .telegram-p a {
-  background-color: #11280dba;
   outline: none;
-  text-decoration: none;
+  text-decoration: underline;
   color: #f4ede6;
-  font-style: italic;
-  padding: 0.5rem;
-  position: relative; }
+  font-style: italic; }
 
 .tg {
-  width: 9vw;
-  position: absolute; }
+  width: 1.5rem; }
 
 html {
   overflow-x: hidden; }

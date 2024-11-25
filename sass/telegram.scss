@@ -13,19 +13,16 @@
 }
 
 .telegram-p a {
-  background-color: $color-secondary;
+  //background-color: $color-secondary;
   outline: none;
-  text-decoration: none;
+  text-decoration: underline;
   color: $color-primary;
   font-style: italic;
-  padding: 0.5rem;
-  position: relative;
+  //padding: 0.5rem;
+
   //margin: 1rem;
 }
 
 .tg {
-  width: 9vw;
-  position: absolute;
-
-  //top: 2px;
+  width: 1.5rem;
 }
