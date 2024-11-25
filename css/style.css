@@ -362,13 +362,13 @@ h3 {
 small {
   font-family: "Playfair Display", serif; }
 
-@media (min-width: 1024px) {
+@media (min-width: 613px) {
   body {
-    padding: 8rem;
     background-color: #f4ede6; }
   .photo-main {
-    background-color: transparent;
-    display: flex; }
+    display: flex;
+    background-color: #f4ede6;
+    transform: translateY(5rem); }
     .photo-main img {
       width: 35%;
       filter: blur(0rem);
@@ -388,7 +388,14 @@ small {
     color: #11280dba;
     font-size: 4vw; }
   .main {
-    padding-top: 5rem; }
+    padding-top: 7rem; } }
+
+@media (min-width: 1024px) {
+  body {
+    padding: 0 8rem;
+    background-color: #f4ede6; }
+  .main {
+    padding-top: 9rem; }
   .main p,
   .location-text p {
     padding-bottom: 1rem; }
@@ -407,7 +414,9 @@ small {
       width: 100%; }
   .hidden {
     display: block;
-    margin-top: 1rem; } }
+    margin-top: 1rem; }
+  .contacts {
+    padding: 2rem 0; } }
 
 .see-you {
   background-color: black;

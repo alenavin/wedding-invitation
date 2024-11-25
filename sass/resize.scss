@@ -1,13 +1,12 @@
-@media (min-width: 1024px) {
+@media (min-width: 613px) {
   body {
-    padding: 8rem;
     background-color: $color-primary;
-    //background-color: rgb(75, 56, 17);
   }
-  ////////////////////////////   MAIN    /////////////////////////
   .photo-main {
-    background-color: transparent;
     display: flex;
+    background-color: $color-primary;
+    transform: translateY(5rem);
+
     & img {
       width: 35%;
       filter: blur(0rem);
@@ -36,10 +35,22 @@
       font-size: 4vw;
     }
   }
+  .main {
+    padding-top: 7rem;
+  }
+}
+@media (min-width: 1024px) {
+  body {
+    padding: 0 8rem;
+    background-color: $color-primary;
+    //background-color: rgb(75, 56, 17);
+  }
+  ////////////////////////////   MAIN    /////////////////////////
+
   ///////////////////////////////////////////////////////////
   ///
   .main {
-    padding-top: 5rem;
+    padding-top: 9rem;
   }
   .main p,
   .location-text p {
@@ -70,5 +81,8 @@
   .hidden {
     display: block;
     margin-top: 1rem;
+  }
+  .contacts {
+    padding: 2rem 0;
   }
 }
