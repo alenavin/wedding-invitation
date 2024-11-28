@@ -23,8 +23,6 @@
       href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
       rel="stylesheet"
     />
-    <!--Библиоткека нормалайз-->
-    <link rel="stylesheet" href="normalize.css" />
 
     <title>Margarita & Ilya</title>
     <link rel="icon" href="img/icon-wed.png" type="image/x-icon" />
@@ -110,7 +108,8 @@
       </div>
 
       <p>
-        или ярким, но приглушенным и нежным - выбирайте на какой вы стороне!
+        или ярким, но приглушенным и нежным &mdash; выбирайте на какой вы
+        стороне!
       </p>
       <div class="dress-cercles">
         <div class="dress-cercles-col" id="f"></div>
@@ -154,7 +153,7 @@
           <img src="img/pampas-34.PNG" alt="form-picture" class="form-img" />
           <img src="img/qw.jpg" alt="form-picture" class="form-img hidden" />
         </div>
-
+        <!--
         <form action="https://api.web3forms.com/submit" method="POST">
           <input
             type="hidden"
@@ -216,7 +215,6 @@
               <label for="dontknow">сообщу позже</label>
             </div>
           </div>
-          <!--
           <span>Останетесь в коттедже на ночь?</span><br>
           <p id="stay-p">Наша площадка дает возможность готям, при желании, остаться до утра и уехать 15 июля. Пожалуйста, укажите предпочтительный для вас вариант</p>
           <div class="stay">
@@ -239,7 +237,73 @@
               <label for="dontknow">сообщу позже</label>
             </div>
           </div>
-          -->
+          
+          <input
+            type="submit"
+            name="send"
+            id=""
+            class="btn"
+            value="Отправить"
+          />
+        </form> -->
+        <!--///////////////////////////////////////////////////////////////////////////////-->
+        <form id="tg">
+          <span>Имя Фамилия</span>
+          <input
+            type="text"
+            name="name"
+            class="box"
+            autocomplete="off"
+            placeholder="Ваше имя"
+          />
+
+          <span>Телефон</span>
+          <input
+            type="number"
+            name="phone"
+            class="box"
+            autocomplete="off"
+            placeholder="Ваш телефон"
+          />
+
+          <span>Предпочтение по напиткам</span>
+          <select name="drinks" id="" class="box">
+            <option value="" disabled selected>Выбрать</option>
+            <option value="Слабоалкогольные напитки">
+              Слабоалкогольные напитки 🥂
+            </option>
+            <option value="Крепкий алкоголь">Крепкий алкоголь 🥃</option>
+            <option value="Безалкогольные напитки">
+              Безалкогольные напитки 🥤
+            </option>
+            <option value="Всего по чуть-чуть">Всего по чуть-чуть 💃🏻</option>
+            <option value="Мне не важно">Мне не важно 🤷🏻‍♂️</option>
+          </select>
+
+          <span>Трансфер от метро Ховрино</span>
+          <div class="transfer">
+            <div>
+              <input type="radio" name="transfer" id="yes" value="нужен" />
+              <label for="yes">нужен</label>
+            </div>
+            <div>
+              <input type="radio" name="transfer" id="no" value="не нужен" />
+              <label for="no">не нужен</label>
+            </div>
+
+            <div>
+              <input
+                type="radio"
+                name="transfer"
+                id="dontknow"
+                value="сообщу позже"
+              />
+              <label for="dontknow">сообщу позже</label>
+            </div>
+          </div>
+          <div id="notification">
+            <p>Спасибо! Ваше подтверждение отправлено!</p>
+          </div>
           <input
             type="submit"
             name="send"
@@ -268,6 +332,7 @@
         <img src="img/heart-glasses-svgrepo-com.svg" alt="hearts" />
       </div>
     </section>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 
     <script src="main.js" ;></script>
   </body>

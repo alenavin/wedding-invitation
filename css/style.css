@@ -115,6 +115,17 @@ input[type="number"]::-webkit-inner-spin-button {
     background-color: #11280dba;
     color: #f4ede6; }
 
+#notification {
+  text-align: center;
+  margin-bottom: 2rem;
+  display: none; }
+  #notification p {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #c99b24;
+    border-radius: 10px;
+    color: #f4ede6; }
+
 select {
   appearance: none;
   /* Убирает стилизация браузера (CSS3) */
